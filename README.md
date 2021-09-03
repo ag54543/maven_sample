@@ -1,1 +1,1 @@
-# ps_ts
+# This project is selenium sample project with maven as build tool and extent reporting support

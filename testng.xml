@@ -1,42 +1,13 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="timesheet" verbose="1" >
+<suite name="googleSearch" verbose="1" >
 
     <listeners>
         <listener class-name="config.ExtentReportNG"/>
     </listeners>
     <test name="timesheet1" >
-        <parameter name="date" value="16-August-2021" />
         <classes>
-            <class name="testcases.TimeSheetTest"/>
-        </classes>
-    </test>
-
-    <test name="timesheet2" >
-        <parameter name="date" value="17-August-2021" />
-        <classes>
-            <class name="testcases.TimeSheetTest"/>
-        </classes>
-    </test>
-
-    <test name="timesheet3" >
-        <parameter name="date" value="18-August-2021" />
-        <classes>
-            <class name="testcases.TimeSheetTest"/>
-        </classes>
-    </test>
-
-    <test name="timesheet4" >
-        <parameter name="date" value="19-August-2021" />
-        <classes>
-            <class name="testcases.TimeSheetTest"/>
-        </classes>
-    </test>
-
-    <test name="timesheet5" >
-        <parameter name="date" value="20-August-2021" />
-        <classes>
-            <class name="testcases.TimeSheetTest"/>
+            <class name="testcases.GoogleSearchTest"/>
         </classes>
     </test>
 </suite>
